@@ -12,7 +12,8 @@ function App() {
 
   return (
     <ApolloProvider client={client}>
-      <main>
+      <main style={{ textAlign: "center" }}>
+        <h1>Pokedex App!</h1>
         <PokemonContainer />
       </main>
     </ApolloProvider>
